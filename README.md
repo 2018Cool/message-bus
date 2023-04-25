@@ -35,8 +35,8 @@ bus.on('my-event', (data) => {
 ```
 
 ### Examples
-[react](examples/react)
-[vue](examples/vue)
+- [react](examples/react)
+- [vue](examples/vue)
 
 ### API
 
