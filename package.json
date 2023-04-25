@@ -1,0 +1,19 @@
+{
+    "name": "iframe-msg-bus",
+    "version": "0.0.2",
+    "main": "esm/index.js",
+    "module": "esm/index.js",
+    "typings": "esm/index.d.ts",
+    "repository": "https://github.com/2018Cool/message-bus",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc"
+    },
+    "files": [
+        "esm",
+        "package.json"
+    ],
+    "devDependencies": {
+        "typescript": "^5.0.4"
+    }
+}

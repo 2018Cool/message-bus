@@ -1,0 +1,28 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "target": "esnext",
+    "outDir": "esm",
+    "module": "CommonJS",
+    "allowJs": true,
+    "lib": [
+      "es2017","DOM"
+    ],
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "removeComments": true,
+    "sourceMap": false,
+    "baseUrl": "./",
+    "strict": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true, 
+    "skipLibCheck": true,
+    "declaration": true,
+    "paths": {
+      "@/*": ["src/*"],
+    },
+  },
+  "exclude": ["node_modules","src/test"]
+}

@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["test/**/*"],
+  "compilerOptions": {
+    "types": ["node", "jest","DOM"],
+    "lib": [
+      "es2017","DOM"
+    ],
+    "paths": {
+      "@/*": ["src/*"],
+    },
+  }
+}
