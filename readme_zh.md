@@ -35,8 +35,8 @@ bus.on('my-event', (data) => {
 ```
 
 ### 示例项目
-- [react](examples/react)
-- [vue](examples/vue)
+- [react](https://github.com/2018Cool/message-bus/tree/main/examples/react)
+- [vue](https://github.com/2018Cool/message-bus/tree/main/examples/vue)
 ### API
 
 #### `MessageBus`
