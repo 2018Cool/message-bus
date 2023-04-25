@@ -1,4 +1,4 @@
-## English
+## [English](README.md) | [中文](readme_zh.md)
 
 ### Introduction
 
@@ -33,6 +33,10 @@ bus.on('my-event', (data) => {
   console.log(data.myData);
 });
 ```
+
+### Examples
+[react](examples/react)
+[vue](examples/vue)
 
 ### API
 

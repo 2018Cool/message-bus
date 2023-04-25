@@ -1,4 +1,4 @@
-## 中文
+## [English](README.md) | [中文](readme_zh.md)
 
 ### 介绍
 
@@ -34,6 +34,9 @@ bus.on('my-event', (data) => {
 });
 ```
 
+### 示例项目
+[react](examples/react)
+[vue](examples/vue)
 ### API
 
 #### `MessageBus`
@@ -75,3 +78,5 @@ bus.on('my-event', (data) => {
 - `debug?: boolean`: 是否启用调试日志记录，默认关闭。
 - `targetOrigin?: string`: `postMessage` 调用的目标源，默认为`*`。
 - `maxHandshakeTime?: number`: 等待握手响应的最大时间,单位为毫秒，默认为5000ms。
+
+
